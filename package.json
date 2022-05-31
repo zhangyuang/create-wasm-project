@@ -1,6 +1,6 @@
 {
   "name": "create-wasm-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create Wasm App",
   "main": "./bin/init.js",
   "scripts": {
