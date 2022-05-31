@@ -110,7 +110,7 @@ jobs:
           ref: master
       - name: Publish
         run: | 
-          cp -R ./color-thief-wasm/ ./example
+          cp -R ./color-thief-wasm/ ./example/color-thief-wasm
           rm -rf color-thief-wasm
           ls
           if git log -1 --pretty=%B | grep "^[0-9]\+\.[0-9]\+\.[0-9]\+$";
