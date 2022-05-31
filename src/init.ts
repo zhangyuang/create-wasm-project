@@ -30,11 +30,6 @@ const init = async (options?: Options) => {
   Shell.cp('-r', `${join(__dirname, '../gitignore.tpl')}`, `${join(cwd, `./${targetDir}/.gitignore`)}`)
 
   logGreen('Created succeed ')
-
-  console.log(`  cd ${targetDir}`)
-  console.log('  npm install (or `yarn`)')
-  console.log('  npm start (or `yarn start`)')
-  console.log()
 }
 
 export {
